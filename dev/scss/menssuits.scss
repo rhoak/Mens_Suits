@@ -1,0 +1,284 @@
+//retina display images
+
+html * { margin: 0; padding: 0 
+}
+
+ul { 
+  list-style-type: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body { 
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+} 
+
+
+$grey: #4a4b4c;
+$darkgrey: #464646;
+
+
+/*************** Global Styling ******************/
+
+/*************** Global Styling ******************/
+.desktop { 
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  h1 { 
+    font-weight: 100; 
+    font-size: 5em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  p { 
+    font-weight: 300; 
+    font-size: 1.2em;
+    line-height: 150%;
+    color: #fff;
+  }
+}
+
+
+.container {
+  width: 962px;
+  margin-left: -481px; 
+  position: relative;
+  left: 50%;
+}
+
+
+.section  {
+  width: 100%;
+  padding-top: 62.5%;
+}
+
+.section2  {
+  width: 962px;
+  padding-top: 0;
+  height: 600px;
+}
+
+
+#Fit_Guide { 
+  background: url(../assets/suityourself.png) no-repeat;
+  background-size: contain;
+}
+
+
+#Canali{ 
+
+}
+
+.canali { 
+  background-image: url(../assets/canali_1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+// .canali_2 { 
+//   background-image: url(../assets/canali_2.png);
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+
+
+
+.canali_button { 
+  cursor: pointer;
+  height: 0;
+  width: 10%;
+  padding-bottom: 10%;
+  background-color: springgreen;
+  position: absolute;
+  z-index: 5;
+}
+
+.canali_button_fixed { 
+  cursor: pointer;
+  width: 92px;
+  height: 92px;
+  background-color: violet;
+  position: absolute;
+  z-index: 5;
+}
+
+#canali_button2 { 
+  cursor: pointer;
+  height: 0;
+  width: 10%;
+  padding-bottom: 10%;
+  right: 10%;
+  background-color: blue;
+  position: absolute;
+  z-index: 5;
+}
+
+#canali_button3 { 
+  cursor: pointer;
+  height: 0;
+  width: 10%;
+  padding-bottom: 10%;
+  left: 20%;
+  background-color: tomato;
+  position: absolute;
+  z-index: 5;
+}
+
+#canali_button4 { 
+  cursor: pointer;
+  height: 0;
+  width: 10%;
+  padding-bottom: 10%;
+  right: 20%;
+  background-color: violet;
+  position: absolute;
+  z-index: 5;
+}
+
+#canali_button span { 
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1vmax;
+}
+
+#Hart_Schaffner_Marx{ 
+  background: url(../assets/hart_1.png) no-repeat;
+  background-size: contain;
+}
+
+#Hugo_Boss{ 
+  background: url(../assets/hugoboss_1.png) no-repeat;
+  background-size: contain;
+}
+
+#Theory{ 
+  background: url(../assets/theory_1.png) no-repeat;
+  background-size: contain;
+}
+
+#Z_Zegna{ 
+  background: url(../assets/zegna_1.png) no-repeat;
+  background-size: contain;
+}
+
+
+
+
+
+
+/*************** Top Navigation ******************/
+#sticky_navigation { 
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  background-color: #000;
+  height: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+#sticky_navigation li { 
+  color: #fff;
+  float: left;
+  cursor: pointer;
+}
+
+#sticky_navigation li:hover { 
+  opacity: 0.7;
+}
+
+
+.active {
+  opacity: 0.7; 
+}
+
+#social_media { 
+  float: right;
+}
+
+#social_media li { 
+  padding-left: 30px;
+}
+
+#top_nav li { 
+  padding-right: 40px;
+}
+
+/*************** Top Navigation ******************/
+
+
+/*************** Footer ******************/
+#Backtotop { 
+  height: 130px;
+  background-color: #000;
+}
+
+/*************** Mobile ******************/
+// All Mobile CSS must Be in HTML //
+.mobile { 
+  font-family: 'Lato', sans-serif;
+  h1 { 
+    font-weight: 300; 
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  p { 
+  font-weight: 300; 
+  font-size: 1.4em;;
+  line-height: 150%;
+  text-align: center;
+  }
+} 
+
+
+#fit_guide_mobile img {
+  width: 100%;
+  height: auto;
+}
+
+#canali_mobile img {
+  width: 100%;
+  height: auto;
+}
+
+
+#nav_mobile { 
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  border-top: 1px solid #000;
+}
+
+#nav_mobile li { 
+  font-size: 3vw;
+  font-size: 3em;
+  padding: 4%;
+  border-bottom: 1px solid #000;
+}
+
+.mobile_heading { 
+  height: 295px;
+  background-color: $darkgrey;
+}
+
+.mobile_heading h1 { 
+  color: #fff;
+}
+
+.mobile_heading p { 
+  color: #fff;
+}
+
+
+
+
+
+
+
