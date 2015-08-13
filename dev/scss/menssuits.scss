@@ -10,6 +10,7 @@ ul {
 html, body {
   height: 100%;
   width: 100%;
+  background-color: #464646;
 }
 
 body { 
@@ -18,8 +19,7 @@ body {
 } 
 
 
-$grey: #4a4b4c;
-$darkgrey: #464646;
+
 
 
 /*************** Global Styling ******************/
@@ -28,18 +28,21 @@ $darkgrey: #464646;
 .desktop { 
   font-family: 'Lato', sans-serif;
   text-align: left;
-  h1 { 
-    font-weight: 100; 
-    font-size: 5em;
-    text-transform: uppercase;
-    color: #fff;
-  }
-  p { 
-    font-weight: 300; 
-    font-size: 1.2em;
-    line-height: 150%;
-    color: #fff;
-  }
+}
+
+.desktop h1 { 
+  font-weight: 100; 
+  font-size: 5em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.desktop p {
+  font-weight: 300; 
+  font-size: 1.2em;
+  line-height: 150%;
+  color: #fff;
+
 }
 
 
@@ -51,120 +54,235 @@ $darkgrey: #464646;
 }
 
 
-.section  {
+.expand  {
   width: 100%;
   padding-top: 62.5%;
 }
 
-.section2  {
+.fixed  {
   width: 962px;
   padding-top: 0;
   height: 600px;
 }
 
+.section { 
+
+}
 
 #Fit_Guide { 
-  background: url(../assets/suityourself.png) no-repeat;
+  background: url(../assets/suityourself.png);
+  background-color: #464646;
+  background-repeat: no-repeat;
   background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  margin-top: 70px;
 }
 
 
 #Canali{ 
-
-}
-
-.canali { 
   background-image: url(../assets/canali_1.png);
+  background-color: #464646;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-// .canali_2 { 
-//   background-image: url(../assets/canali_2.png);
-//   background-repeat: no-repeat;
-//   background-size: contain;
-// }
-
-
-
-.canali_button { 
-  cursor: pointer;
-  height: 0;
-  width: 10%;
-  padding-bottom: 10%;
-  background-color: springgreen;
-  position: absolute;
-  z-index: 5;
-}
-
-.canali_button_fixed { 
-  cursor: pointer;
-  width: 92px;
-  height: 92px;
-  background-color: violet;
-  position: absolute;
-  z-index: 5;
-}
-
-#canali_button2 { 
-  cursor: pointer;
-  height: 0;
-  width: 10%;
-  padding-bottom: 10%;
-  right: 10%;
-  background-color: blue;
-  position: absolute;
-  z-index: 5;
-}
-
-#canali_button3 { 
-  cursor: pointer;
-  height: 0;
-  width: 10%;
-  padding-bottom: 10%;
-  left: 20%;
-  background-color: tomato;
-  position: absolute;
-  z-index: 5;
-}
-
-#canali_button4 { 
-  cursor: pointer;
-  height: 0;
-  width: 10%;
-  padding-bottom: 10%;
-  right: 20%;
-  background-color: violet;
-  position: absolute;
-  z-index: 5;
-}
-
-#canali_button span { 
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1vmax;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
 
 #Hart_Schaffner_Marx{ 
-  background: url(../assets/hart_1.png) no-repeat;
+  background: url(../assets/hart_1.png);
+  background-color: #464646;
+  background-repeat: no-repeat;
   background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
 
 #Hugo_Boss{ 
-  background: url(../assets/hugoboss_1.png) no-repeat;
+  background: url(../assets/hugoboss_1.png);
+  background-color: #464646;
+  background-repeat: no-repeat;
   background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
 
 #Theory{ 
-  background: url(../assets/theory_1.png) no-repeat;
+  background: url(../assets/theory_1.png);
+  background-color: #464646;
+  background-repeat: no-repeat;
   background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
 
 #Z_Zegna{ 
-  background: url(../assets/zegna_1.png) no-repeat;
+  background: url(../assets/zegna_1.png);
+  background-color: #464646;
+  background-repeat: no-repeat;
   background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
 }
+
+
+.hide { 
+  display: none;
+}
+
+.shop_expand { 
+  height: 0;
+  padding-bottom: 5%;
+}
+
+.shop_fixed { 
+  height: 50px;
+}
+
+.shop_button{ 
+  cursor: pointer;
+  background-color: gold;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 5;
+}
+
+#canali-shop { 
+  margin-left: 5%;
+  margin-top: 34.5%;
+  width: 10%;
+}
+
+#hart-shop { 
+  margin-left: 5%;
+  margin-top: 40%;
+  width: 19%;
+}
+
+#hugoboss-shop { 
+  margin-left: 5%;
+  margin-top: 38%;
+  width: 13%;
+}
+
+#theory-shop { 
+  margin-left: 5%;
+  margin-top: 36%;
+  width: 10%;
+}
+
+#zegna-shop { 
+  z-index: 5;
+  margin-left: 5%;
+  margin-top: 36%;
+  width: 11%;
+}
+
+
+.button_fixed { 
+  width: 92px;
+  height: 92px;
+  padding-bottom: 0;
+}
+
+.button_expand { 
+  height: 0;
+  width: 10%;
+  padding-bottom: 10%;
+}
+
+.button { 
+  opacity: 0.5;
+  position: absolute;
+  z-index: 5;
+  cursor: pointer;
+}
+
+#x-button { 
+  background-color: blue;
+}
+
+#canali-button1 { 
+  background-color: springgreen;
+  margin-left: 45%;
+  margin-top: 35%;
+}
+
+#canali-button2 { 
+  background-color: tomato;
+  margin-left: 71%;
+  margin-top: 30%;
+}
+
+#hart-button1 { 
+  background-color: violet;
+  margin-left: 58.5%;
+  margin-top: 38%;
+}
+
+#hart-xbutton { 
+  background-color: blue;
+}
+
+#hugoboss-button1 { 
+  background-color: springgreen;
+  margin-left: 40.5%;
+  margin-top: 32%;
+}
+
+#hugoboss-button2 { 
+  background-color: tomato;
+  margin-left: 53%;
+  margin-top: 32%;
+}
+
+#hugoboss-button3 { 
+  background-color: yellow;
+  margin-left: 76%;
+  margin-top: 31%;
+}
+
+#theory-xbutton { 
+  background-color: blue;
+}
+
+#theory-button1 { 
+  background-color: springgreen;
+  margin-left: 34%;
+  margin-top: 36%;
+}
+
+#theory-button2 { 
+  background-color: tomato;
+  margin-left: 53%;
+  margin-top: 35%;
+}
+
+#theory-button3 { 
+  background-color: yellow;
+  margin-left: 73%;
+  margin-top: 40%;
+}
+
+#zegna-button1 { 
+  background-color: springgreen;
+  margin-left: 44%;
+  margin-top: 40%;
+}
+
+#zegna-xbutton { 
+  background-color: blue;
+}
+
+
+
+
 
 
 
@@ -174,13 +292,17 @@ $darkgrey: #464646;
 /*************** Top Navigation ******************/
 #sticky_navigation { 
   width: 100%;
+  min-width: 962px;
   z-index: 10;
   position: absolute;
+  top: 0;
   background-color: #000;
   height: 70px;
   line-height: 70px;
   text-transform: uppercase;
   font-size: 1.1em;
+  font-family: Lato;
+  font-weight: 700;
 }
 
 #sticky_navigation li { 
@@ -192,7 +314,6 @@ $darkgrey: #464646;
 #sticky_navigation li:hover { 
   opacity: 0.7;
 }
-
 
 .active {
   opacity: 0.7; 
@@ -210,15 +331,53 @@ $darkgrey: #464646;
   padding-right: 40px;
 }
 
+
 /*************** Top Navigation ******************/
 
 
 /*************** Footer ******************/
 #Backtotop { 
-  height: 130px;
+  height: 128px;
+  width: 100%;
+  min-width: 962px;
   background-color: #000;
 }
 
+#totop {
+  width: 150px; 
+  margin-left: -50px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  margin-top: 40px
+}
+
+#totop p { 
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+  padding: 0;
+  margin-top: -5px;
+  font-size: 1.2vmax; 
+}
+
+.backtotop {
+  padding: 0; 
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 1vmax; 
+  width: 2em; 
+  height: 2em;
+  border-top: 2.5px solid #fff;
+  border-right: 2.5px solid #fff;
+  transform: rotate(-45deg);
+  -webkit-transform : rotate(-45deg);
+  -moz-transform : rotate(-45deg);
+  -o-transform : rotate(-45deg);
+}
 /*************** Mobile ******************/
 // All Mobile CSS must Be in HTML //
 .mobile { 
@@ -265,7 +424,6 @@ $darkgrey: #464646;
 
 .mobile_heading { 
   height: 295px;
-  background-color: $darkgrey;
 }
 
 .mobile_heading h1 { 
